@@ -3,7 +3,7 @@ const APIURL = 'https://api.github.com/users/';
 const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
-const numRepos = 7;
+const numRepos = 20;
 getUser('yefersoncm');
 
 async function getUser(username){
